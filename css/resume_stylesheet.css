@@ -1,0 +1,35 @@
+/*RESET CSS MARGIN AND PADDING*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ============ NAVBAR STYLES ============ */
+.navbar {
+  margin-bottom: 0;
+  padding: 0 10px 0 10px;
+}
+
+.navbar .nav > li > a, .navbar-header .navbar-brand{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar li:hover{
+  transition: .75s;
+  background-color: #817D62;
+}
+
+.navbar a:hover{
+  transition: .75s;
+}
+
+.navbar-toggle{
+  background-color: black;
+  border-color: white;
+  border-width: thick;
+  margin: 0 auto;
+  transform: translateY(50%);
+  height: 25px;
+  width: 40px;
+}
