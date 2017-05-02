@@ -46,7 +46,7 @@
 .jumbotron h1{
   color: white;
   font-family: 'Abril Fatface', cursive;
-  font-size: 4vh;
+  font-size: 7vh;
 }
 
 .jumbotron h2{
@@ -62,6 +62,7 @@
   background-size: cover;
   background-color: #000080;
   text-align: center;
+  filter:
 }
 
 hr{
