@@ -43,10 +43,13 @@
   width: 40px;
 }
 
-/* ============ JUMBOTRON / LANDING STYLES ============ */
+/* ============ LANDING STYLES ============ */
 #landing-text{
   padding: 0;
   margin: 0;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
 }
 
 #landing-text h1{
@@ -77,8 +80,20 @@ hr{
   padding: 0;
 }
 
-#landing-text{
-  position: relative;
-  top: 40%;
-  transform: translateY(-50%);
+/* ============ SECTION STYLES ============ */
+section{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+section p{
+  padding: 0% 5% 5% 5%;
+}
+
+section h1{
+  padding: 5% 5% 0% 5%;
+  font-family: 'Abril Fatface', cursive;
 }
