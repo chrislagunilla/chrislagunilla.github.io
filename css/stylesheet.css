@@ -7,23 +7,28 @@
 
 #panel{
     background-color: white;
-    opacity: .3;
-    width: 100vw;
-    height: 39vh;
+    opacity: .7;
+    width: 35vw;
+    height: 100vh;
     position: absolute;
     z-index: 1;
-    top: 30vh;
+    /* top: 30vh; */
 }
 
 .jumbotron{
     background: transparent;
     position: absolute;
     z-index: 2;
-    left: 10vw;
-    top: 25vh;
+    left: 5vw;
+    top: 15vh;
     margin-right: 10vw;
+}
+
+#landing-text{
+    padding-right: 75vw;
 }
 
 #landing-text > h1{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
